@@ -1,8 +1,20 @@
+import { Input } from "../../UI/Input";
 import styles from "./MilkItemForm.module.css";
 
-export const MilkItem = (props) => {
-
+export const MilkItemForm = (props) => {
   return (
-    <div></div>
+    <form className={styles.form}>
+      <Input
+        label="Amount"
+        input={{
+          id: "amount",
+          type: "number",
+          min: "1",
+          step: "1",
+          defaultValue: "1",
+        }}
+      />
+      <button>Add</button>
+    </form>
   );
 };

@@ -12,19 +12,19 @@ const MILK_LIST = [
   {
     id: "m2",
     name: "S Milk",
-    description: "700ml",
+    description: "800ml",
     price: 3.99,
   },
   {
     id: "m3",
     name: "M Milk",
-    description: "1300ml",
+    description: "1100ml",
     price: 5.99,
   },
   {
     id: "m4",
     name: "L Milk",
-    description: "1900ml",
+    description: "1400ml",
     price: 7.99,
   },
 ];
