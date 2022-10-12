@@ -30,7 +30,15 @@ const MILK_LIST = [
 ];
 
 export const MilkList = () => {
-  const milkList = MILK_LIST.map((milk) => <MilkItem name={milk.name} price={milk.price} key={milk.id} description={milk.description}/>);
+  const milkList = MILK_LIST.map((milk) => (
+    <MilkItem
+      name={milk.name}
+      price={milk.price}
+      key={milk.id}
+      id={milk.id}
+      description={milk.description}
+    />
+  ));
 
   return (
     <section className={styles.milk}>

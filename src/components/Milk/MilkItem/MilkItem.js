@@ -12,7 +12,7 @@ export const MilkItem = (props) => {
       <div className={styles.description}>{props.description}</div>
       <div className={styles.price}>{formattedPrice}</div>
       <div>
-      <MilkItemForm />
+      <MilkItemForm id={props.id}/>
       </div>
     </li>
   );

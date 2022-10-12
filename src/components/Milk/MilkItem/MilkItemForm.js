@@ -7,7 +7,7 @@ export const MilkItemForm = (props) => {
       <Input
         label="Amount"
         input={{
-          id: "amount",
+          id: props.id,
           type: "number",
           min: "1",
           step: "1",
