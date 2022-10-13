@@ -41,7 +41,7 @@ const [cartState, dispatchCartAction] = useReducer(cartReducer,defaultCartState)
 
   const cartContext = {
     items: cartState.items,
-    totalAmouny: cartState.totalAmount,
+    totalAmount: cartState.totalAmount,
     addItem: addItemHandler,
     removeItem: removeItemHandler,
   };
