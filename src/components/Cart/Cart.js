@@ -7,12 +7,16 @@ import { CartItem } from "./CartItem";
 export const Cart = (props) => {
   const cartContext = useContext(CartContext);
 
-  const totalAmount = `$${cartContext.totalAmount.toFixed(2)}`;
+  const totalAmount = `$${Math.abs(cartContext.totalAmount).toFixed(2)}`;
   const hasItmes = cartContext.items.length > 0;
 
-  const removeCartItemHandler = (id) => {};
+  const removeCartItemHandler = (id) => {
+    cartContext.removeItem({id})
+  };
 
-  const addCartItemHandler = (item) => {};
+  const addCartItemHandler = (item) => {
+    cartContext.addItem({...item, amount: 1})
+  };
 
   const cartItems = (
     <ul className={styles["cart-items"]}>
@@ -40,7 +44,7 @@ export const Cart = (props) => {
         <button className={styles[`button--alt`]} onClick={props.onHideCart}>
           Close
         </button>
-        {!hasItmes && <button className={styles.button}>Order</button>}
+        {hasItmes && <button className={styles.button}>Order</button>}
       </div>
     </Modal>
   );
