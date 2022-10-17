@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Milk-Delivery/static/css/main.a9db6b36.chunk.css",
+    "main.js": "/Milk-Delivery/static/js/main.51695190.chunk.js",
+    "main.js.map": "/Milk-Delivery/static/js/main.51695190.chunk.js.map",
+    "runtime-main.js": "/Milk-Delivery/static/js/runtime-main.2ea7e8bd.js",
+    "runtime-main.js.map": "/Milk-Delivery/static/js/runtime-main.2ea7e8bd.js.map",
+    "static/js/2.7ff6caaf.chunk.js": "/Milk-Delivery/static/js/2.7ff6caaf.chunk.js",
+    "static/js/2.7ff6caaf.chunk.js.map": "/Milk-Delivery/static/js/2.7ff6caaf.chunk.js.map",
+    "index.html": "/Milk-Delivery/index.html",
+    "static/css/main.a9db6b36.chunk.css.map": "/Milk-Delivery/static/css/main.a9db6b36.chunk.css.map",
+    "static/js/2.7ff6caaf.chunk.js.LICENSE.txt": "/Milk-Delivery/static/js/2.7ff6caaf.chunk.js.LICENSE.txt",
+    "static/media/background.7e2927a0.jpg": "/Milk-Delivery/static/media/background.7e2927a0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2ea7e8bd.js",
+    "static/js/2.7ff6caaf.chunk.js",
+    "static/css/main.a9db6b36.chunk.css",
+    "static/js/main.51695190.chunk.js"
+  ]
+}
